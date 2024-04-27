@@ -2,7 +2,7 @@
 A selection of the JS projects I completed while learning the language 
 
 
-##List of projects
+## List of projects
 
 1) PokeApi
    
