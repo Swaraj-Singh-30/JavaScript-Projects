@@ -12,3 +12,5 @@ A selection of the JS projects I completed while learning the language
 2) **Rock Paper Scissors Game**
 
    ![screen-capture (1)](https://github.com/Swaraj-Singh-30/JavaScript-Projects/assets/76990410/c88040d0-8eb7-4c10-9428-09695532acdd)
+
+3) **Stop-watch**
