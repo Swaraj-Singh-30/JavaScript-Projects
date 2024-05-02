@@ -17,6 +17,6 @@ A selection of the JS projects I completed while learning the language
 
    ![screen-capture (2)](https://github.com/Swaraj-Singh-30/JavaScript-Projects/assets/76990410/2223d1f0-1b7f-419d-a481-756467b1e8ef)
    
-4)TO-DO list 
+4) **TO-DO list** 
    
    ![screen-capture (4)](https://github.com/Swaraj-Singh-30/JavaScript-Projects/assets/76990410/735ede51-8ccf-42e2-a507-a30c21e9ecf9)
