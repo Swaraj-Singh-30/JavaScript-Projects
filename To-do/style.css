@@ -51,8 +51,9 @@ body {
     border-bottom: 1px solid #ddd;
   }
   
-  .completed {
-    text-decoration: line-through;
-    opacity: 0.5;
-  }
+.completed {
+  transition: 0.25s ease-out;
+  text-decoration: line-through;
+  opacity: 0.4;
+}
   
