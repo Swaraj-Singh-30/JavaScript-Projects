@@ -1,8 +1,15 @@
-fetchData();
+document.addEventListener("DOMContentLoaded", function() {
+  // Add event listener to input field
+  const inputField = document.getElementById("pokemonName");
+  inputField.addEventListener("keypress", function(event) {
+    if (event.keyCode === 13) { // Check if Enter key is pressed
+      fetchData(); // Call fetchData() function
+    }
+  });
+});
 
 async function fetchData() {
   try {
-
     const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
@@ -15,7 +22,6 @@ async function fetchData() {
     const pokemonSprite = data.sprites.front_default;
 
     const imgElement = document.getElementById("pokemonSprite");
-
     imgElement.src = pokemonSprite;
     imgElement.style.display = "block";
 
