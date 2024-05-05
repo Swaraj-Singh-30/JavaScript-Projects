@@ -1,40 +1,104 @@
-body, html {
+:root {
+  --red: #ff0000;
+  --dark-red: #c80000;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  height: 90vh;
+  width: auto;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("./pokeBall.png");
+  background-size: 10%;
+  /* background-size: cover; */
+  animation: panLeftToRight 20s linear infinite;
+}
+
+@keyframes panLeftToRight {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+
+h1 {
+    transform: translate(1rem, 0rem);
+    color: #ffcb05;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3b5ca7;
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    width: 30rem;
+    font-size: 2.3rem;
+
 }
 
-body{
-    height: 90vh;
-    width: auto;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
+.container {
+  transform: translate(0%, 37%);
+  background-color: whitesmoke;
+  height: 10rem;
+  border-radius: 15px;
+  padding: 15px;
+  align-items: center;
+  box-shadow: 3px 3px 15px -5px hsl(0, 0%, 70%),
+    -3px -3px 15px -5px hsl(0, 0%, 70%), 10px 10px 30px #bebebe,
+    -10px -10px 30px #ffffff;
+    backdrop-filter: blur(10px);
 }
 
-
-.container{
-    background-color: whitesmoke;
-    height: 10rem;
-    border-radius: 15px;
-    padding: 15px;
-    align-items: center;
-    box-shadow: 6px 3px 8px 0px hsl(0, 0%, 60%), -6px -3px 8px 0px hsl(0, 0%, 60%);
+input[type="text"] {
+  width: 18rem;
+  height: 2rem;
+  transform: translate(1rem, 1.5rem);
+  padding: 0px 0px 0px 5px;
+  border: 1px solid hsl(0, 0%, 60%);
+  border-radius: 2px;
+  font-size: larger;
 }
 
-input[type= "text"]{
-    width: 18rem;
-    height: 2rem;
-    transform: translate(13px, 8px);
-    padding: 0px 0px 0px 5px;
-    border: 1px solid hsl(0, 0%, 60%);
-    border-radius: 2px;
-    /* margin-right: 10px; */
+input[type="text"]:focus {
+  outline: none;
 }
 
-button{
-    transform: translate(2rem, 0rem);
-    width: 5rem;
-    border: none;
-    border-radius: 3px;
+button {
+  transform: translate(1.5rem, 1.5rem);
+  width: 5rem;
+  font-size: larger;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  background-color: var(--red);
+}
+
+button:hover {
+  background-color: var(--dark-red);
+}
+
+#pokemonSprite {
+  height: 40vh;
+  transform: translate(5rem, 2rem);
+
+}
+
+.img-container {
+  height: 40vh;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37),  12px 12px 30px #bebebe,
+  -12px -12px 30px #ffffff;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transform: translate(0rem, 4rem);
+  padding: 0 0 60px 0;
 }
