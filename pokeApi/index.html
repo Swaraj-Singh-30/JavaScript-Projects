@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokemon Finder</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <div class="container">
-    <h1>Search your Pokemon</h1><br>
+    <h1>Search your Pokemon</h1><br><hr>
     <input type="text"  id="pokemonName" placeholder="Enter pokemon Name">
-    <button onclick="fetchData()">Fetch Pokemon</button><br>
+    <button onclick="fetchData()">Fetch</button><br>
 </div>
 
     <br>
-    
+    <div class="img-container">
     <img src=" " alt="Pokemon image"  id= "pokemonSprite" style="display: none;">
+    </div>
 </body>
 
     <script src="index.js"></script>
