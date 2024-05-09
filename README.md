@@ -6,7 +6,7 @@ A selection of the JS projects I completed while learning the language
 
 1) **PokeApi**
    
-   ![screen-capture](https://github.com/Swaraj-Singh-30/JavaScript-Projects/assets/76990410/89f4b0f1-f4d1-4754-8f2b-830e96266c17)
+   ![screen-capture](https://github.com/Swaraj-Singh-30/JavaScript-Projects/assets/76990410/5386dd9b-f059-4ffa-8205-e6c4e8f39d51)
 
 
 2) **Rock Paper Scissors Game**
